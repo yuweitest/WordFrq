@@ -91,6 +91,7 @@ public class WordFrq {
 }
  class Map<String,Integer>{
 	 private String word;
+	 private Integer frequence;
 	 public String getWord() {
 		return word;
 	}
@@ -103,5 +104,5 @@ public class WordFrq {
 	public void setFrequence(Integer frequence) {
 		this.frequence = frequence;
 	}
-	private Integer frequence;
+	
  }
