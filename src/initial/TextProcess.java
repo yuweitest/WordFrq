@@ -37,7 +37,7 @@ public class TextProcess {
 	
 	
 	//处理非第一行数据
-	public ArrayList<Map1<String, Integer>>UnFirstLine_P(ArrayList<Map1<String, Integer>> list,String[] str){
+	public ArrayList<Map1> UnFirstLine_P(ArrayList<Map1> list,String[] str){
 		int str_Num= str.length;
 		int list_Num = list.size();
 		for (int i = 0; i < str_Num; i++) {
@@ -54,7 +54,7 @@ public class TextProcess {
 				}
 			}
 		}
-		return null;
+		return list;
 		
 	}
 	
