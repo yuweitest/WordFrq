@@ -1,0 +1,19 @@
+if (list_Num==0) {
+					Map word = new Map();
+					word.setFrequence(1);
+					word.setWord(str[0]);
+					list.add(word);
+					for (int i = 1; i < str_Num; i++) {
+						for (int j = 0; j < list.size(); j++) {
+							if (str[i].trim().equals((String)list.get(j).getWord().toString().trim())) {//此处不相等
+								int frq=(int) list.get(j).getFrequence();
+								list.get(j).setFrequence(++frq);
+								break;
+							}else if (j==list.size()-1){
+								Map word1 = new Map();
+								word1.setFrequence(1);
+								word1.setWord(str[i]);
+								list.add(word1);
+							}
+						}
+					}
