@@ -6,8 +6,5 @@ Map  2
 word  1
 =  4
 new  2
-Map();  2
-word.setFrequence(1);  1
-word.setWord(str[0]);  1
-list.add(word);  1
+
 
