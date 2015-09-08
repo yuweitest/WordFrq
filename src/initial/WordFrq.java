@@ -89,6 +89,8 @@ public class WordFrq {
 		}
 	}
 }
+
+/****************************************************/
  class Map<String,Integer>{
 	 private String word;
 	 public String getWord() {
